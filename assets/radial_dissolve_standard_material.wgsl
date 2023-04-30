@@ -34,8 +34,6 @@ fn fragment(in: FragmentInput) -> @location(0) vec4<f32> {
     let alpha = 1.0 - step(radius, distance_from_center);
 
     color.w = alpha;
-
-
     return vec4(color);
 }
 

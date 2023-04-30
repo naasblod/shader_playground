@@ -463,10 +463,10 @@ impl Material for RadialDissolveStandardMaterial {
     fn fragment_shader() -> ShaderRef {
         // Uncomment to store shader in library, good for using in other projects
         // bad for iteration since it is incompatible with hot reloading.
-        RADIAL_DISSOLVE_PBR_HANDLE.typed().into()
+        //RADIAL_DISSOLVE_PBR_HANDLE.typed().into()
 
         // Uncomment to enable hot reloading, use one or the other.
-        //"radial_dissolve_standard_material.wgsl".into()
+        "radial_dissolve_standard_material.wgsl".into()
     }
 
     #[inline]
