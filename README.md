@@ -2,6 +2,7 @@
 
 Repo for playing around with WGSL shaders in bevy.
 
+# Watch demo on youtube
 [![Demo video](https://img.youtube.com/vi/cqnvsoXkENA/maxresdefault.jpg)](https://youtu.be/cqnvsoXkENA)
 
 This repo has hot reloading enabled and a bevy_egui_inspector window to change the values of your custom fields on your shaders.
